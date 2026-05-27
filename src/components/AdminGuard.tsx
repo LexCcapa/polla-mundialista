@@ -9,42 +9,55 @@ export default function AdminGuard({
 }: {
   children: React.ReactNode;
 }) {
-
   const router = useRouter();
-
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    async function checkAdmin() {
+      try {
+        const {
+          data: { user },
+        } = await supabase.auth.getUser();
+
+        // 1. SI NO ESTÁ LOGUEADO
+        if (!user) {
+          router.replace("/login");
+          return; // Detiene la ejecución aquí
+        }
+
+        // 2. CORREO DEL ADMINISTRADOR
+        const adminEmail = "alexccapa@gmail.com";
+
+        // 3. SI NO ES EL ADMIN
+        if (user.email !== adminEmail) {
+          router.replace("/");
+          return; // Detiene la ejecución aquí
+        }
+
+        // Si pasa todas las validaciones, dejamos de cargar
+        setLoading(false);
+      } catch (error) {
+        console.error("Error validando administrador:", error);
+        router.replace("/");
+      }
+    }
+
     checkAdmin();
-  }, []);
+  }, [router]);
 
-  async function checkAdmin() {
-
-    const {
-      data: { user },
-    } = await supabase.auth.getUser();
-
-    // NO LOGUEADO
-    if (!user) {
-      router.push("/login");
-      return;
-    }
-
-    // CAMBIAR POR TU CORREO
-    const adminEmail = "alexccapa@gmail.com";
-
-    // NO ES ADMIN
-    if (user.email !== adminEmail) {
-      router.push("/");
-      return;
-    }
-
-    setLoading(false);
-  }
-
+  // Mientras se comprueba la sesión, mostramos la pantalla de carga
   if (loading) {
-    return <p>Cargando...</p>;
+    return (
+      <div className="flex h-screen w-screen items-center justify-center bg-gray-50">
+        <div className="text-center">
+          <p className="text-lg font-semibold text-gray-600 animate-pulse">
+            🔒 Verificando credenciales de administrador...
+          </p>
+        </div>
+      </div>
+    );
   }
 
+  // Si es admin, renderiza las páginas hijas
   return <>{children}</>;
 }
