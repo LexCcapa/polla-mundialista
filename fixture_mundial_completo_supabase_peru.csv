@@ -1,0 +1,73 @@
+team_home,team_away,match_date,close_time,status,stage,home_score,away_score,group_name
+México,Sudáfrica,2026-06-11 14:00:00,2026-06-11 02:00:00,scheduled,Group Stage,,,Grupo A
+Corea del Sur,República Checa,2026-06-11 21:00:00,2026-06-11 09:00:00,scheduled,Group Stage,,,Grupo A
+Canadá,Bosnia y Herzegovina,2026-06-12 14:00:00,2026-06-12 02:00:00,scheduled,Group Stage,,,Grupo B
+Estados Unidos,Paraguay,2026-06-12 20:00:00,2026-06-12 08:00:00,scheduled,Group Stage,,,Grupo D
+Qatar,Suiza,2026-06-13 14:00:00,2026-06-13 02:00:00,scheduled,Group Stage,,,Grupo B
+Brasil,Marruecos,2026-06-13 17:00:00,2026-06-13 05:00:00,scheduled,Group Stage,,,Grupo C
+Haití,Escocia,2026-06-13 20:00:00,2026-06-13 08:00:00,scheduled,Group Stage,,,Grupo C
+Australia,Turquía,2026-06-13 23:00:00,2026-06-13 11:00:00,scheduled,Group Stage,,,Grupo D
+Alemania,Curazao,2026-06-14 12:00:00,2026-06-14 00:00:00,scheduled,Group Stage,,,Grupo E
+Países Bajos,Japón,2026-06-14 15:00:00,2026-06-14 03:00:00,scheduled,Group Stage,,,Grupo F
+Costa de Marfil,Ecuador,2026-06-14 18:00:00,2026-06-14 06:00:00,scheduled,Group Stage,,,Grupo E
+Suecia,Túnez,2026-06-14 21:00:00,2026-06-14 09:00:00,scheduled,Group Stage,,,Grupo F
+España,Cabo Verde,2026-06-15 11:00:00,2026-06-14 23:00:00,scheduled,Group Stage,,,Grupo H
+Bélgica,Egipto,2026-06-15 14:00:00,2026-06-15 02:00:00,scheduled,Group Stage,,,Grupo G
+Arabia Saudita,Uruguay,2026-06-15 17:00:00,2026-06-15 05:00:00,scheduled,Group Stage,,,Grupo H
+Irán,Nueva Zelanda,2026-06-15 20:00:00,2026-06-15 08:00:00,scheduled,Group Stage,,,Grupo G
+Francia,Senegal,2026-06-16 14:00:00,2026-06-16 02:00:00,scheduled,Group Stage,,,Grupo I
+Irak,Noruega,2026-06-16 17:00:00,2026-06-16 05:00:00,scheduled,Group Stage,,,Grupo I
+Argentina,Argelia,2026-06-16 20:00:00,2026-06-16 08:00:00,scheduled,Group Stage,,,Grupo J
+Austria,Jordania,2026-06-16 23:00:00,2026-06-16 11:00:00,scheduled,Group Stage,,,Grupo J
+Portugal,RD de Congo,2026-06-17 12:00:00,2026-06-17 00:00:00,scheduled,Group Stage,,,Grupo K
+Inglaterra,Croacia,2026-06-17 15:00:00,2026-06-17 03:00:00,scheduled,Group Stage,,,Grupo L
+Ghana,Panamá,2026-06-17 18:00:00,2026-06-17 06:00:00,scheduled,Group Stage,,,Grupo L
+Uzbekistán,Colombia,2026-06-17 21:00:00,2026-06-17 09:00:00,scheduled,Group Stage,,,Grupo K
+República Checa,Sudáfrica,2026-06-18 11:00:00,2026-06-17 23:00:00,scheduled,Group Stage,,,Grupo A
+Suiza,Bosnia y Herzegovina,2026-06-18 14:00:00,2026-06-18 02:00:00,scheduled,Group Stage,,,Grupo B
+Canadá,Qatar,2026-06-18 17:00:00,2026-06-18 05:00:00,scheduled,Group Stage,,,Grupo B
+México,Corea del Sur,2026-06-18 20:00:00,2026-06-18 08:00:00,scheduled,Group Stage,,,Grupo A
+Estados Unidos,Australia,2026-06-19 14:00:00,2026-06-19 02:00:00,scheduled,Group Stage,,,Grupo D
+Escocia,Marruecos,2026-06-19 17:00:00,2026-06-19 05:00:00,scheduled,Group Stage,,,Grupo C
+Brasil,Haití,2026-06-19 19:30:00,2026-06-19 07:30:00,scheduled,Group Stage,,,Grupo C
+Turquía,Paraguay,2026-06-19 22:00:00,2026-06-19 10:00:00,scheduled,Group Stage,,,Grupo D
+Países Bajos,Suecia,2026-06-20 12:00:00,2026-06-20 00:00:00,scheduled,Group Stage,,,Grupo F
+Germany,Costa de Marfil,2026-06-20 15:00:00,2026-06-20 03:00:00,scheduled,Group Stage,,,Grupo E
+Ecuador,Curazao,2026-06-20 19:00:00,2026-06-20 07:00:00,scheduled,Group Stage,,,Grupo E
+Túnez,Japón,2026-06-20 23:00:00,2026-06-20 11:00:00,scheduled,Group Stage,,,Grupo F
+España,Arabia Saudita,2026-06-21 11:00:00,2026-06-20 23:00:00,scheduled,Group Stage,,,Grupo H
+Bélgica,Irán,2026-06-21 14:00:00,2026-06-21 02:00:00,scheduled,Group Stage,,,Grupo G
+Uruguay,Cabo Verde,2026-06-21 17:00:00,2026-06-21 05:00:00,scheduled,Group Stage,,,Grupo H
+Nueva Zelanda,Egipto,2026-06-21 20:00:00,2026-06-21 08:00:00,scheduled,Group Stage,,,Grupo G
+Argentina,Austria,2026-06-22 13:00:00,2026-06-22 01:00:00,scheduled,Group Stage,,,Grupo J
+Francia,Irak,2026-06-22 17:00:00,2026-06-22 05:00:00,scheduled,Group Stage,,,Grupo I
+Noruega,Senegal,2026-06-22 20:00:00,2026-06-22 08:00:00,scheduled,Group Stage,,,Grupo I
+Jordania,Argelia,2026-06-22 23:00:00,2026-06-22 11:00:00,scheduled,Group Stage,,,Grupo J
+Portugal,Uzbekistán,2026-06-23 12:00:00,2026-06-23 00:00:00,scheduled,Group Stage,,,Grupo K
+Inglaterra,Ghana,2026-06-23 15:00:00,2026-06-23 03:00:00,scheduled,Group Stage,,,Grupo L
+Panamá,Croacia,2026-06-23 18:00:00,2026-06-23 06:00:00,scheduled,Group Stage,,,Grupo L
+Colombia,RD de Congo,2026-06-23 21:00:00,2026-06-23 09:00:00,scheduled,Group Stage,,,Grupo K
+Suiza,Canadá,2026-06-24 14:00:00,2026-06-24 02:00:00,scheduled,Group Stage,,,Grupo B
+Bosnia y Herzegovina,Qatar,2026-06-24 14:00:00,2026-06-24 02:00:00,scheduled,Group Stage,,,Grupo B
+Marruecos,Haití,2026-06-24 17:00:00,2026-06-24 05:00:00,scheduled,Group Stage,,,Grupo C
+Escocia,Brasil,2026-06-24 17:00:00,2026-06-24 05:00:00,scheduled,Group Stage,,,Grupo C
+Sudáfrica,Corea del Sur,2026-06-24 20:00:00,2026-06-24 08:00:00,scheduled,Group Stage,,,Grupo A
+República Checa,México,2026-06-24 20:00:00,2026-06-24 08:00:00,scheduled,Group Stage,,,Grupo A
+Curazao,Costa de Marfil,2026-06-25 15:00:00,2026-06-25 03:00:00,scheduled,Group Stage,,,Grupo E
+Ecuador,Alemania,2026-06-25 15:00:00,2026-06-25 03:00:00,scheduled,Group Stage,,,Grupo E
+Japón,Suecia,2026-06-25 18:00:00,2026-06-25 06:00:00,scheduled,Group Stage,,,Grupo F
+Túnez,Países Bajos,2026-06-25 18:00:00,2026-06-25 06:00:00,scheduled,Group Stage,,,Grupo F
+Paraguay,Australia,2026-06-25 21:00:00,2026-06-25 09:00:00,scheduled,Group Stage,,,Grupo D
+Turquía,Estados Unidos,2026-06-25 21:00:00,2026-06-25 09:00:00,scheduled,Group Stage,,,Grupo D
+Noruega,Francia,2026-06-26 14:00:00,2026-06-26 02:00:00,scheduled,Group Stage,,,Grupo I
+Senegal,Irak,2026-06-26 14:00:00,2026-06-26 02:00:00,scheduled,Group Stage,,,Grupo I
+Cabo Verde,Arabia Saudita,2026-06-26 19:00:00,2026-06-26 07:00:00,scheduled,Group Stage,,,Grupo H
+Uruguay,España,2026-06-26 19:00:00,2026-06-26 07:00:00,scheduled,Group Stage,,,Grupo H
+Egipto,Irán,2026-06-26 22:00:00,2026-06-26 10:00:00,scheduled,Group Stage,,,Grupo G
+Nueva Zelanda,Bélgica,2026-06-26 22:00:00,2026-06-26 10:00:00,scheduled,Group Stage,,,Grupo G
+Croacia,Ghana,2026-06-27 16:00:00,2026-06-27 04:00:00,scheduled,Group Stage,,,Grupo L
+Panamá,Inglaterra,2026-06-27 16:00:00,2026-06-27 04:00:00,scheduled,Group Stage,,,Grupo L
+Colombia,Portugal,2026-06-27 18:30:00,2026-06-27 06:30:00,scheduled,Group Stage,,,Grupo K
+RD de Congo,Uzbekistán,2026-06-27 18:30:00,2026-06-27 06:30:00,scheduled,Group Stage,,,Grupo K
+Argelia,Austria,2026-06-27 21:00:00,2026-06-27 09:00:00,scheduled,Group Stage,,,Grupo J
+Jordania,Argentina,2026-06-27 21:00:00,2026-06-27 09:00:00,scheduled,Group Stage,,,Grupo J
