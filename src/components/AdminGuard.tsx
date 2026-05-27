@@ -22,7 +22,7 @@ export default function AdminGuard({
         // 1. SI NO ESTÁ LOGUEADO
         if (!user) {
           router.replace("/login");
-          return; // Detiene la ejecución aquí
+          return;
         }
 
         // 2. CORREO DEL ADMINISTRADOR
@@ -31,10 +31,9 @@ export default function AdminGuard({
         // 3. SI NO ES EL ADMIN
         if (user.email !== adminEmail) {
           router.replace("/");
-          return; // Detiene la ejecución aquí
+          return;
         }
 
-        // Si pasa todas las validaciones, dejamos de cargar
         setLoading(false);
       } catch (error) {
         console.error("Error validando administrador:", error);
@@ -45,19 +44,17 @@ export default function AdminGuard({
     checkAdmin();
   }, [router]);
 
-  // Mientras se comprueba la sesión, mostramos la pantalla de carga
   if (loading) {
     return (
       <div className="flex h-screen w-screen items-center justify-center bg-gray-50">
         <div className="text-center">
           <p className="text-lg font-semibold text-gray-600 animate-pulse">
-            🔒 Verificando credenciales de administrador...
+            🔒 Verificando credenciales...
           </p>
         </div>
       </div>
     );
   }
 
-  // Si es admin, renderiza las páginas hijas
   return <>{children}</>;
 }
