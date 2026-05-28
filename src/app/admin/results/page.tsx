@@ -1,7 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { supabase } from "../../../../lib/supabase";
+import { useState, useRef, useEffect, ChangeEvent, FormEvent } from "react";
+import { supabase } from "@/lib/supabase";
+import AdminGuard from "@/components/AdminGuard";
+import Link from "next/link";
 
 export default function ResultsPage() {
   const [matches, setMatches] = useState<any[]>([]);
