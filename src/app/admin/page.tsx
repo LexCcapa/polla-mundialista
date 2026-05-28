@@ -4,7 +4,6 @@ import Link from "next/link";
 import AdminGuard from "@/components/AdminGuard";
 
 export default function AdminPage() {
-
   return (
     <AdminGuard>
       <main
@@ -15,9 +14,11 @@ export default function AdminPage() {
           gap: 20,
         }}
       >
-        <h1>Panel Admin</h1>
+        <h1 style={{ fontSize: "24px", fontWeight: "bold", marginBottom: "10px" }}>
+          Panel Admin
+        </h1>
 
-        <Link href="/admin/matches">
+        <Link href="/matches">
           ⚽ Ver Partidos
         </Link>
 

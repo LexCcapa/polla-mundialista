@@ -18,9 +18,10 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".", // <--- ¡ESTA ES LA LÍNEA QUE FALTA!
     "paths": {
-  "@/*": ["src/*"]
-}
+      "@/*": ["src/*"]
+    }
   },
   "include": [
     "next-env.d.ts",
